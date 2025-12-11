@@ -14,8 +14,8 @@ export default function HarrisburgServiceAreaClient() {
   const locations = [
     {
       id: "maplewood",
-      name: "Maplewood, NJ",
-      address: "1585 Springfield Avenue, Store #1, Maplewood, NJ 07040",
+      name: "McGinley Square, NJ",
+      address: "543 Martin Luther King Drive, Jersey City NJ 07304",
       phone: "973-671-5500",
       hours: [
         "Monday: 9:00 AM - 6:00 PM",
@@ -28,7 +28,7 @@ export default function HarrisburgServiceAreaClient() {
       ],
       mapUrl:
         // "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.1234567890123!2d-74.27123456789012!3d40.73123456789012!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3a8b123456789%3A0x1234567890abcdef!2sMaplewood%2C%20NJ!5e0!3m2!1sen!2sus!4v1710000000000!5m2!1sen!2sus",
-        "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6047.5999171140365!2d-74.256008!3d40.72242!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3acfa56220c03%3A0x4ed24acaf264373a!2s1585%20Springfield%20Ave%2C%20Maplewood%2C%20NJ%2007040%2C%20USA!5e0!3m2!1sen!2sin!4v1755873013308!5m2!1sen!2sin",
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d189.00480459885054!2d-74.07432869599977!3d40.716324178536574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c250d85405807f%3A0xa748b8744dce927a!2s543%20Martin%20Luther%20King%20Dr%2C%20Jersey%20City%2C%20NJ%2007304%2C%20USA!5e0!3m2!1sen!2sin!4v1764705756736!5m2!1sen!2sin",
     },
   ];
 
