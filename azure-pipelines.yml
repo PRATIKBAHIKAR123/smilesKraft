@@ -1,0 +1,80 @@
+trigger:
+  branches:
+    include:
+      - main    # run pipeline on every commit to main
+
+pr: none        # no PR validation (optional)
+
+# Use your self-hosted Windows VM agent pool
+pool:
+  name: 'WinVm-Pool-88'   
+
+steps:
+  - checkout: self
+
+  # Use a specific Node version
+  - task: NodeTool@0
+    displayName: 'Use Node.js 24.x'
+    inputs:
+      versionSpec: '24.11.0'   # change if you use another version
+
+  # Install dependencies
+  - script: |
+      npm ci || npm install
+    displayName: 'Install dependencies'
+    workingDirectory: '$(System.DefaultWorkingDirectory)'
+
+  # Build step (optional – keep if you have a build script, e.g. TypeScript/React)
+  - script: |
+      if exist package.json (
+        echo "Running npm run build if script exists..."
+        npm run build || echo "No build script or build failed, continuing..."
+      )
+    displayName: 'Build app (if applicable)'
+    workingDirectory: '$(System.DefaultWorkingDirectory)'
+
+  # Deploy + restart PM2 app using git pull on target
+  - powershell: |
+      Write-Host "Deploying Node app with PM2"
+
+      $targetPath = "C:\inetpub\wwwroot\TulipDental\tulip-dental"
+      if (!(Test-Path $targetPath)) {
+        throw "Target path $targetPath does not exist. Make sure the repo is cloned there."
+      }
+
+      # Go to the app folder
+      Set-Location $targetPath
+      Write-Host "Current directory: $(Get-Location)"
+
+      # 1) Get latest code from main
+      Write-Host "Fetching latest code from Git..."
+      # git fetch origin
+      # git reset --hard origin/main
+      # or if you prefer:
+      git pull origin main
+
+      # 2) Install dependencies
+      Write-Host "Installing npm dependencies..."
+      if (Test-Path "package-lock.json") {
+        npm ci
+      } else {
+        npm install
+      }
+
+      # 3) Build the app
+      Write-Host "Running npm run build..."
+      npm run build
+
+      # 4) Restart PM2 process
+      Write-Host "Restarting PM2 process 'tulipdental'..."
+      pm2 -v
+
+      # If process exists, restart; otherwise start new
+      $pm2List = pm2 list | Out-String
+      if ($pm2List -match "tulipdental") {
+        pm2 restart tulipdental
+      }
+
+      # Save PM2 process list so it survives reboot (if pm2 startup is configured)
+      pm2 save
+    displayName: 'Git pull, build & restart PM2'
