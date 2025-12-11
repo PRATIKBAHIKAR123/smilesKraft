@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import HomePage from "./home/page";
 
 export const metadata: Metadata = {
-  title: "Tulip Dental | Dentist in Maplewood NJ | Maplewood Cosmetic Dentist | Family Dentist",
-  description: "Top-rated cosmetic & family dentist in Maplewood, NJ. Serving patients from Maplewood and nearby areas. Call 973-671-5500 or visit us at 1585 Springfield Avenue, Store #1, Maplewood, NJ 07040.",
+  title: "SmileKraft Dental | Dentist in Jersey City NJ | Family & Cosmetic Dentistry",
+  description: "SmileKraft Dental in Jersey City, NJ provides gentle family and cosmetic care, including implants, Invisalign®, whitening, and same-day emergencies. Serving Bergen-Lafayette (07304, 07305), McGinley Square (07304, 07306, 07302), Greenville (07305), Journal Square (07306), and The Heights (07306, 07307). Call today or book online.",
 };
 
 export default function Home() {

@@ -30,18 +30,18 @@ const privacySections = [
   },
   {
     title: "Contact Information",
-    content: `Please contact us by phone at 973-671-5500 or by mail at 1585 Springfield Avenue, Store #1, Maplewood, NJ 07040`,
+    content: `Please contact us by phone at 201-731-2700 or by mail at 543 Martin Luther King Drive, Jersey City NJ 07304`,
   },
 ];
 
 const sectionIcons = [
-  "/Images/tulip.webp",
-  "/Images/tulip.webp",
-  "/Images/tulip.webp",
-  "/Images/tulip.webp",
-  "/Images/tulip.webp",
-  "/Images/tulip.webp",
-  "/Images/tulip.webp",
+  "/Images/SmileKraft Dental-Blue.png",
+  "/Images/SmileKraft Dental-Blue.png",
+  "/Images/SmileKraft Dental-Blue.png",
+  "/Images/SmileKraft Dental-Blue.png",
+  "/Images/SmileKraft Dental-Blue.png",
+  "/Images/SmileKraft Dental-Blue.png",
+  "/Images/SmileKraft Dental-Blue.png",
 ];
 
 export default function PrivacyPolicy() {
@@ -75,7 +75,7 @@ export default function PrivacyPolicy() {
                       <img
                         src={sectionIcons[index % sectionIcons.length]}
                         alt={section.title}
-                        className="w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 object-contain"
+                        className="w-12 h-12 sm:w-14 sm:h-14 md:w-22 md:h-22 object-contain"
                       />
                     </div>
                     <div className="flex-1 text-center sm:text-left">

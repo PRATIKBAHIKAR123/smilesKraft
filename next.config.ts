@@ -58,7 +58,7 @@ const nextConfig: NextConfig = {
             value: "tulipdentalnj.com",
           },
         ],
-        destination: "https://www.tulipdentalnj.com/:path*",
+        destination: "https://smilekraftnj.com/:path*",
         permanent: true,
       },
       // Redirect HTTP to HTTPS
@@ -70,7 +70,7 @@ const nextConfig: NextConfig = {
             value: "www.tulipdentalnj.com",
           },
         ],
-        destination: "https://www.tulipdentalnj.com/:path*",
+        destination: "https://smilekraftnj.com/:path*",
         permanent: true,
       },
     ];

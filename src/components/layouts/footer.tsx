@@ -163,7 +163,7 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/sitemap" className="hover:underline">
+                <Link href="/sitemap-page" className="hover:underline">
                   Site map
                 </Link>
               </li>

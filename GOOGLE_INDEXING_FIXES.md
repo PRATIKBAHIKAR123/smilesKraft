@@ -12,9 +12,9 @@ Based on the Google Search Console screenshots showing:
 ### 1. Canonical Tag Issues ✅ FIXED
 
 **Problem**: Inconsistent canonical URLs with www vs non-www domains
-- `DynamicMetadata.tsx` was using `https://www.tulipdentalnj.com`
-- `layout.tsx` was using `https://www.tulipdentalnj.com`
-- Metadata functions were using `https://www.tulipdentalnj.com`
+- `DynamicMetadata.tsx` was using `https://smilekraftnj.com`
+- `layout.tsx` was using `https://smilekraftnj.com`
+- Metadata functions were using `https://smilekraftnj.com`
 
 **Solution**: Standardized all canonical URLs to use `https://tulipdentalnj.com` (non-www)
 
@@ -59,7 +59,7 @@ Based on the Google Search Console screenshots showing:
 
 ### Canonical URL Standardization
 ```typescript
-// Before: https://www.tulipdentalnj.com/path
+// Before: https://smilekraftnj.com/path
 // After: https://tulipdentalnj.com/path
 ```
 

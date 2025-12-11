@@ -172,13 +172,13 @@ export default function DynamicMetadata() {
 
       const ogUrl = document.querySelector('meta[property="og:url"]');
       if (ogUrl) {
-        ogUrl.setAttribute("content", `https://www.tulipdentalnj.com${pathname}`);
+        ogUrl.setAttribute("content", `https://smilekraftnj.com${pathname}`);
       } else {
         const newOgUrl = document.createElement("meta");
         newOgUrl.setAttribute("property", "og:url");
         newOgUrl.setAttribute(
           "content",
-          `https://www.tulipdentalnj.com${pathname}`
+          `https://smilekraftnj.com${pathname}`
         );
         document.head.appendChild(newOgUrl);
       }
@@ -214,7 +214,7 @@ export default function DynamicMetadata() {
         document.head.appendChild(canonicalLink);
       }
       // Always use www version for canonical URLs
-      const canonicalUrl = `https://www.tulipdentalnj.com${pathname}`;
+      const canonicalUrl = `https://smilekraftnj.com${pathname}`;
       canonicalLink.setAttribute("href", canonicalUrl);
 
       // Remove any existing www canonical links to prevent conflicts
@@ -242,7 +242,7 @@ export default function DynamicMetadata() {
         "@type": "Dentist",
         name: "Tulip Dental Maplewood",
         description: metadata.description,
-        url: `https://www.tulipdentalnj.com${pathname}`,
+        url: `https://smilekraftnj.com${pathname}`,
         telephone: "+1-9736715500",
         address: {
           "@type": "PostalAddress",

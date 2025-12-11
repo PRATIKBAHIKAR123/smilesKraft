@@ -452,7 +452,7 @@ export function generateServiceMetadata(
     openGraph: {
       title: service.title,
       description: service.description,
-      url: `https://www.tulipdentalnj.com/services/${serviceKey}`,
+      url: `https://smilekraftnj.com/services/${serviceKey}`,
       images: imageUrl
         ? [
             {
@@ -471,7 +471,7 @@ export function generateServiceMetadata(
       images: imageUrl ? [imageUrl] : undefined,
     },
     alternates: {
-      canonical: `https://www.tulipdentalnj.com/services/${serviceKey}`,
+      canonical: `https://smilekraftnj.com/services/${serviceKey}`,
     },
   };
 }
@@ -498,7 +498,7 @@ export function generateServiceAreaMetadata(
     openGraph: {
       title: area.title,
       description: area.description,
-      url: `https://www.tulipdentalnj.com/service-areas/${areaKey}`,
+      url: `https://smilekraftnj.com/service-areas/${areaKey}`,
       images: imageUrl
         ? [
             {
@@ -517,7 +517,7 @@ export function generateServiceAreaMetadata(
       images: imageUrl ? [imageUrl] : undefined,
     },
     alternates: {
-      canonical: `https://www.tulipdentalnj.com/service-areas/${areaKey}`,
+      canonical: `https://smilekraftnj.com/service-areas/${areaKey}`,
     },
   };
 }
@@ -544,7 +544,7 @@ export function generateUrgentCareServiceMetadata(
     openGraph: {
       title: service.title,
       description: service.description,
-      url: `https://www.tulipdentalnj.com/urgent-care-services/${serviceKey}`,
+      url: `https://smilekraftnj.com/urgent-care-services/${serviceKey}`,
       images: imageUrl
         ? [
             {
@@ -563,7 +563,7 @@ export function generateUrgentCareServiceMetadata(
       images: imageUrl ? [imageUrl] : undefined,
     },
     alternates: {
-      canonical: `https://www.tulipdentalnj.com/urgent-care-services/${serviceKey}`,
+      canonical: `https://smilekraftnj.com/urgent-care-services/${serviceKey}`,
     },
   };
 }
@@ -588,7 +588,7 @@ export function generatePageMetadata(
     openGraph: {
       title: page.title,
       description: page.description,
-      url: `https://www.tulipdentalnj.com/${pageKey}`,
+      url: `https://smilekraftnj.com/${pageKey}`,
       images: imageUrl
         ? [
             {
@@ -607,7 +607,7 @@ export function generatePageMetadata(
       images: imageUrl ? [imageUrl] : undefined,
     },
     alternates: {
-      canonical: `https://www.tulipdentalnj.com/${pageKey}`,
+      canonical: `https://smilekraftnj.com/${pageKey}`,
     },
   };
 }

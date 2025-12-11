@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 Disallow: /cgi-bin/
-Sitemap: https://www.tulipdentalnj.com/sitemap.xml
+Sitemap: https://smilekraftnj.com/sitemap.xml

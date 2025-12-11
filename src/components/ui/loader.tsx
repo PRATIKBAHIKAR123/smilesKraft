@@ -50,7 +50,7 @@ export default function LoaderProvider({
 const Loader: React.FC = () => (
   <div className="fixed inset-0 z-[9999] flex items-center justify-center bg-white overflow-hidden">
     <div className="flex flex-col items-center justify-center relative">
-      <Image
+      {/* <Image
         src="/Images/heart.gif"
         alt="Loading..."
         width={100}
@@ -61,7 +61,12 @@ const Loader: React.FC = () => (
         style={{ maxWidth: "100%", height: "auto" }}
         sizes="(max-width: 640px) 80px, (max-width: 768px) 96px, 128px"
         quality={100} // Maximum quality for loading animation
-      />
+      /> */}
+      <div className="loader-container">
+  <div className="ring"></div>
+  <div className="loader-text">SmileKraft</div>
+</div>
+      
       {/* <p className="mt-4 text-gray-600 font-medium text-lg">Loading...</p> */}
     </div>
   </div>

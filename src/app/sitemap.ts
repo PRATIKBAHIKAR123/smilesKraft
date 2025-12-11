@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://www.tulipdentalnj.com";
+  const baseUrl = "https://smilekraftnj.com";
   const currentDate = new Date().toISOString();
 
   return [
