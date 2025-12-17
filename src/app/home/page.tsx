@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, Suspense } from "react";
+import React, { useState, Suspense, useEffect } from "react";
 import dynamic from "next/dynamic";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
@@ -84,6 +84,26 @@ const services = [
 export default function HomePage() {
   const [isBookingOpen, setIsBookingOpen] = useState(false);
   const { ref, inView } = useInView();
+  const [showBottomStrip, setShowBottomStrip] = useState(true);
+  const [lastScrollY, setLastScrollY] = useState(0);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollY = window.scrollY;
+      if (currentScrollY > lastScrollY && currentScrollY > 100) {
+        setShowBottomStrip(false);
+      } else {
+        setShowBottomStrip(true);
+      }
+      setLastScrollY(currentScrollY);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [lastScrollY]);
 
   return (
     <div>
@@ -130,7 +150,11 @@ export default function HomePage() {
         </div>
 
         {/* Bottom Strip - Now visible on all devices with proper mobile spacing */}
-        <div className="relative z-20 bg-gray-800/90 backdrop-blur-sm py-2 sm:py-8">
+        <div
+          className={`fixed bottom-0 left-0 right-0 z-20 bg-gray-800/90 backdrop-blur-sm py-2 sm:py-8 sm:relative sm:inset-auto transition-transform duration-300 ease-in-out ${
+            showBottomStrip ? "translate-y-0" : "translate-y-full"
+          } sm:translate-y-0`}
+        >
           <div className="container mx-auto px-3 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-3 sm:gap-4">
             {/* Left Section */}
             <div className="flex items-center gap-3 text-center sm:text-left">
@@ -548,13 +572,13 @@ function HomepageSections() {
     {
       label: "Our Services",
       icon: <Stethoscope />,
-      bg: "bg-[#ff5722]",
+      bg: "bg-[#0087CE]",
       href: "/services",
     },
     {
       label: "Contact Us",
       icon: <MessageCircle />,
-      bg: "bg-[#ff5722]/70",
+      bg: "bg-[#0087CE]/70",
       href: "/contact-smilekraft-dental-jerseycity-nj",
     },
   ];
