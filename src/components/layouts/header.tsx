@@ -66,7 +66,7 @@ export default function Header() {
         <Link href="/" className="flex items-center gap-2">
           <Image
             src="/Images/SmileKraft Dental-Blue.png"
-            alt="Tulip Dental Logo"
+            alt="SmileKraft Dental Logo"
             width={isScrolled ? 180 : 220}
             height={isScrolled ? 90 : 110}
             className="hidden lg:block transition-all duration-300"
@@ -75,10 +75,10 @@ export default function Header() {
             quality={95} // High quality for logo
           />
           <Image
-            src="/Images/tulip.webp"
-            alt="Tulip Dental Logo"
-            width={isScrolled ? 32 : 42}
-            height={isScrolled ? 18 : 24}
+            src="/Images/SmileKraft Dental-Blue-small.png"
+            alt="SmileKraft Dental Logo"
+            width={isScrolled ? 38 : 52}
+            height={isScrolled ? 24 : 38}
             className="block lg:hidden transition-all duration-300"
             priority
             sizes="(max-width: 1024px) 42px, 0px"
