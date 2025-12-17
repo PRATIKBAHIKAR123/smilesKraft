@@ -61,9 +61,9 @@ export default function Header() {
         isScrolled ? "py-2 lg:py-4" : "py-3 lg:py-2"
       }`}
     >
-      <div className=" mx-auto flex items-center justify-between px-4 lg:px-8">
+      <div className=" mx-auto flex items-center justify-between px-1 lg:px-8">
         {/* Logo */}
-        <Link href="/" className="flex items-center gap-2">
+        <Link href="/" className="flex items-center">
           <Image
             src="/Images/SmileKraft Dental-Blue.png"
             alt="SmileKraft Dental Logo"
@@ -74,7 +74,7 @@ export default function Header() {
             sizes="(max-width: 1024px) 0px, 220px"
             quality={95} // High quality for logo
           />
-          <Image
+          {/* <Image
             src="/Images/SmileKraft Dental-Blue-small.png"
             alt="SmileKraft Dental Logo"
             width={isScrolled ? 38 : 52}
@@ -83,7 +83,10 @@ export default function Header() {
             priority
             sizes="(max-width: 1024px) 42px, 0px"
             quality={95} // High quality for logo
-          />
+          /> */}
+          <span className="text-primary font-bold text-[10px] block lg:hidden text-center">
+            SmileKraft Dental
+          </span>
         </Link>
 
         {/* Desktop Navigation */}
