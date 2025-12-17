@@ -58,7 +58,7 @@ export default function Header() {
   return (
     <header
       className={`fixed top-0 w-full z-50 bg-white shadow transition-all duration-300 ${
-        isScrolled ? "py-2 lg:py-4" : "py-3 lg:py-4"
+        isScrolled ? "py-2 lg:py-4" : "py-3 lg:py-2"
       }`}
     >
       <div className=" mx-auto flex items-center justify-between px-4 lg:px-8">

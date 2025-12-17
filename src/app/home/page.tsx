@@ -92,7 +92,7 @@ export default function HomePage() {
         {/* Background Image */}
         <div className="absolute inset-0">
           <Image
-            src="/Images/banner.webp"
+            src="/Images/beautiful-girl-sitting-dentist-s-office.webp"
             alt="Dental treatment at SmileKraft Dental in Jersey City"
             fill
             className="object-cover"
