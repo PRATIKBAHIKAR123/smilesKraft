@@ -104,7 +104,7 @@ export default function KidsAndChildrenPage() {
                   className="text-primary ml-2 hover:underline font-medium"
                 >
                   SmileKraft Dental,
-                </Link>
+                </Link>{" "}
                  we make dental care for kids a positive, stress-free experience. Our team specializes in children’s dentistry in Jersey City, offering everything from first checkups and preventive treatments to gentle emergency care when needed. By building healthy habits early, we help kids grow up with strong teeth, healthy gums, and confident smiles.,{" "}
                 
               </p>

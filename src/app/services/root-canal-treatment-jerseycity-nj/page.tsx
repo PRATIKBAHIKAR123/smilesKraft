@@ -190,7 +190,7 @@ export default function RootCanalClient() {
             <p className="features-description">
               <Link href="/"
                 className="text-primary hover:underline font-medium">Root canals</Link>{" "} not only relieve pain but also protect your tooth from future complications. At
-              <Link href="/"
+              {" "}<Link href="/"
                 className="text-primary hover:underline font-medium">SmileKraft Dental,</Link>{" "}
               we combine advanced techniques with compassionate care to make sure your experience is as smooth as possible.
             </p>

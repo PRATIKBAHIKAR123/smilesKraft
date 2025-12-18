@@ -202,7 +202,7 @@ export default function EmergencyDentistryPage() {
                 className="text-primary hover:underline font-medium"
               >
                 dental emergency
-              </Link>
+              </Link>{" "}
               doesn’t just cause pain - it can interrupt your daily life and impact your health. At SmileKraft Dental, we act quickly to relieve discomfort and protect your smile. From the moment you arrive, our team focuses on your comfort, delivering treatment that is both effective and compassionate.
               <br />
             </p>

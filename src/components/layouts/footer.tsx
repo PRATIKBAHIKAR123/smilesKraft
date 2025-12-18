@@ -10,7 +10,7 @@ export default function Footer() {
         {/* Left: Logo & About */}
         <div className="space-y-4 col-span-1">
           <div className="flex items-center gap-2 mb-2">
-            <Image
+            {/* <Image
               src="/Images/SmileKraft Dental-Blue.png"
               alt="Tulip Dental Logo"
               width={160}
@@ -19,7 +19,8 @@ export default function Footer() {
               loading="lazy"
               sizes="(max-width: 640px) 128px, (max-width: 768px) 160px, 192px"
               quality={95} // High quality for logo
-            />
+            /> */}
+            <span className="font-bold text-md md:text-2xl py-2">SMILEKRAFT DENTAL</span>
           </div>
           <p className="text-xs sm:text-sm text-white">
             SmileKraft Dental in Jersey City, NJ is dedicated to creating healthy, confident smiles through advanced family and cosmetic dentistry. Our caring team offers preventive care, cleanings, and fillings, along with cosmetic services like whitening, veneers, and Invisalign®. For patients needing restorative solutions, we provide implants, crowns, and bridges - all delivered with modern technology and personalized attention. Same-day emergency dental care is also available to restore comfort when urgent issues arise. Conveniently located on Martin Luther King Drive, we proudly serve Bergen-Lafayette (07304, 07305), McGinley Square (07304, 07306, 07302), Greenville (07305), Journal Square (07306), and The Heights (07306, 07307).

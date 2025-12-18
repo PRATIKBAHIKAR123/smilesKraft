@@ -302,8 +302,8 @@ export default function Page() {
                 href="/"
                 className="text-primary mr-2 hover:underline font-medium"
               >
-                SmileKraft Dental
-              </Link>,
+                SmileKraft Dental,
+              </Link>{" "}
               we provide professional bad breath treatment in Jersey City, NJ, designed to address the root cause and restore lasting freshness. Schedule your visit today and take the first step toward a healthier smile and renewed confidence..
             </p>
             {/* </Fade> */}

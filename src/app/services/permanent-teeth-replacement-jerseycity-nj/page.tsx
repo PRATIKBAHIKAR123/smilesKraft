@@ -190,9 +190,9 @@ export default function Page() {
                 href="/"
                 className="text-primary hover:underline font-medium"
               >
-                SmileKraft Dental
+                SmileKraft Dental,
               </Link>{" "}
-              , we specialize in permanent tooth replacement in Jersey City, offering advanced solutions that look natural and last for years.
+               we specialize in permanent tooth replacement in Jersey City, offering advanced solutions that look natural and last for years.
               
             </p>
             <p className="features-description">

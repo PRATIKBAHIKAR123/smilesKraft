@@ -51,7 +51,7 @@ export default function HarrisburgServiceAreaClient() {
               {/* <Zoom cascade damping={0.3} duration={800}> */}
               <div className="main-image">
                 <img
-                  src="/Images/McGinley.webp"
+                  src="/Images/little-beautiful-girl-dentist-looking-smiling.webp"
                   alt="Family & Cosmetic Dentistry in McGinley Square NJ"
                   className="rounded-xl"
                 />

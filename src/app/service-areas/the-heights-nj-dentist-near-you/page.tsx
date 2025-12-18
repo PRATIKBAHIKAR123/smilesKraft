@@ -50,7 +50,7 @@ export default function VauxhallServiceAreaClient() {
               {/* <Zoom cascade damping={0.3} duration={800}> */}
               <div className="main-image">
                 <img
-                  src="/Images/the-heights.webp"
+                  src="/Images/cute-little-girl-sitting-dentist-s-office.webp"
                   alt="Family & Cosmetic Dentistry in The Heights NJ"
                   className="rounded-xl"
                 />
@@ -151,9 +151,9 @@ export default function VauxhallServiceAreaClient() {
                   href="/service-areas/mcginley-square-nj-dentist-near-you"
                   className="hover:underline font-bold"
                 >McGinley Square (07304, 07306, 07302),</Link> and <Link
-                  href="/service-areas/the-heights-nj-dentist-near-you"
+                  href="/service-areas/journal-square-nj-dentist-near-you"
                   className="hover:underline font-bold"
-                >The Heights (07306, 07307).</Link>{" "}
+                >Journal Square (07306)</Link>{" "}
                 - keep choosing SmileKraft Dental because we combine clinical excellence with genuine care and a focus on lasting oral health. Here’s why so many patients return to us:
             </div>
             <div className="wcu-points-section">

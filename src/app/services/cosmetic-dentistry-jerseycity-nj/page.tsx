@@ -111,7 +111,7 @@ export default function CosmeticDentistryPage() {
                   className="text-primary hover:underline font-medium"
                 >
                   smile makeovers
-                </Link>
+                </Link>{" "}
                 with veneers or bonding, our team uses modern techniques to deliver results that look natural and feel comfortable.{" "}
               </p>
               <p>

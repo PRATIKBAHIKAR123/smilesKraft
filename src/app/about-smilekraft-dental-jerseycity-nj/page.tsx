@@ -111,7 +111,7 @@ export default function AboutUsClient() {
               >
                 Greenville (07305)
               </Link>
-              ,
+              ,{" "}
               <Link
                 href="/service-areas/the-heights-nj-dentist-near-you"
                 className="text-primary hover:underline font-medium"
@@ -120,7 +120,7 @@ export default function AboutUsClient() {
               </Link>
               {""}
             </strong>
-            , , and{" "}
+            ,  and{" "}
             <Link
               href="/service-areas/greenville-nj-dentist-near-you"
               className="text-primary hover:underline font-medium"

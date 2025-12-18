@@ -48,7 +48,7 @@ export default function IrvingtonServiceAreaClient() {
               {/* <Zoom cascade damping={0.3} duration={800}> */}
               <div className="main-image">
                 <img
-                  src="/Images/Bergen-Lafayette-1.webp"
+                  src="/Images/front-view-man-kid-brushing-teeth.webp"
                   alt="Family & Cosmetic Dentistry in Bergen-Lafayette NJ"
                   className="rounded-xl"
                 />
