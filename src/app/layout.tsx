@@ -108,7 +108,7 @@ export default function RootLayout({
         {/* Preload critical resources */}
         <link
           rel="preload"
-          href="/Images/SmileKraft Dental-Blue.png"
+          href="/Images/SmileKraft Logo - Transparent.png"
           as="image"
           type="image/webp"
         />

@@ -35,13 +35,13 @@ const privacySections = [
 ];
 
 const sectionIcons = [
-  "/Images/SmileKraft Dental-Blue.png",
-  "/Images/SmileKraft Dental-Blue.png",
-  "/Images/SmileKraft Dental-Blue.png",
-  "/Images/SmileKraft Dental-Blue.png",
-  "/Images/SmileKraft Dental-Blue.png",
-  "/Images/SmileKraft Dental-Blue.png",
-  "/Images/SmileKraft Dental-Blue.png",
+  "/Images/SmileKraft Logo - Transparent.png",
+  "/Images/SmileKraft Logo - Transparent.png",
+  "/Images/SmileKraft Logo - Transparent.png",
+  "/Images/SmileKraft Logo - Transparent.png",
+  "/Images/SmileKraft Logo - Transparent.png",
+  "/Images/SmileKraft Logo - Transparent.png",
+  "/Images/SmileKraft Logo - Transparent.png",
 ];
 
 export default function PrivacyPolicy() {

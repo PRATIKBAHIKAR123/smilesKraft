@@ -104,7 +104,7 @@ export function preloadCriticalResources() {
 
   // Preload critical images
   const criticalImages = [
-    "/Images/SmileKraft Dental-Blue.png",
+    "/Images/SmileKraft Logo - Blue-White.png",
     "/Images/Banner-1.webp",
   ];
 

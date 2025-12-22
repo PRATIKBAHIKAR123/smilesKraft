@@ -65,7 +65,7 @@ export default function Header() {
         {/* Logo */}
         <Link href="/" className="flex items-center">
           <Image
-            src="/Images/SmileKraft Dental-Blue.png"
+            src="/Images/SmileKraft Logo - White-Blue.png"
             alt="SmileKraft Dental Logo"
             width={isScrolled ? 180 : 220}
             height={isScrolled ? 90 : 110}
@@ -74,19 +74,19 @@ export default function Header() {
             sizes="(max-width: 1024px) 0px, 220px"
             quality={95} // High quality for logo
           />
-          {/* <Image
-            src="/Images/SmileKraft Dental-Blue-small.png"
+          <Image
+            src="/Images/SmileKraft Logo - Transparent.png"
             alt="SmileKraft Dental Logo"
-            width={isScrolled ? 38 : 52}
-            height={isScrolled ? 24 : 38}
+            width={isScrolled ? 58 : 80}
+            height={isScrolled ? 48 : 64}
             className="block lg:hidden transition-all duration-300"
             priority
             sizes="(max-width: 1024px) 42px, 0px"
             quality={95} // High quality for logo
-          /> */}
-          <span className="text-primary font-bold text-[10px] block lg:hidden text-center">
+          />
+          {/* <span className="text-primary font-bold text-[10px] block lg:hidden text-center">
             SmileKraft Dental
-          </span>
+          </span> */}
         </Link>
 
         {/* Desktop Navigation */}
@@ -436,7 +436,7 @@ export default function Header() {
           {/* Mobile Menu Header */}
           <div className="flex items-center justify-between p-4 border-b">
             <Image
-              src="/Images/SmileKraft Dental-Blue.png"
+              src="/Images/SmileKraft Logo - Transparent.png"
               alt="Tulip Dental Logo"
               width={138}
               height={40}
