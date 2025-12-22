@@ -69,7 +69,7 @@ const services = [
   },
   {
     title: "Whitening & Veneers",
-    image: "/Images/whitening & veneers.webp",
+    image: "/Images/whitening-and-veneers.webp",
     alt: "Teeth Whitening & Veneers at SmileKraft Dental Jersey City",
     link: "/services/teeth-whitening-and-veneers-jerseycity-nj",
   },

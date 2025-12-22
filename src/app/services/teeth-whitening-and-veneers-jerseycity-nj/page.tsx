@@ -75,7 +75,7 @@ export default function WhiteningVeneersPage() {
                 {/* <Zoom cascade damping={0.3} duration={800}> */}
                 <div className="main-image">
                   <img
-                    src="/Images/whitening & veneers.webp"
+                    src="/Images/whitening-and-veneers.webp"
                     alt="Teeth Whitening & Veneers at SmileKraft Dental in Jersey City"
                   />
                 </div>
