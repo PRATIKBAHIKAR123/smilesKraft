@@ -48,7 +48,7 @@ const features = [
 
 const team = [
   {
-    img: "/Images/Dr. Manmeet Arora, DDS.webp",
+    img: "/Images/Dr. Manmeet Arora.webp",
     name: "Dr. Manmeet Arora DDS ",
     role: "Doctor of Dental Surgery",
     time: "11 am - 03 pm",
