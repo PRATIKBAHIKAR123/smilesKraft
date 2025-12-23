@@ -107,7 +107,7 @@ https://calendar.google.com/calendar/render?action=TEMPLATE&text=[Event Title]&d
 
 2. **Admin Side**:
    - Appointment details page
-   - Appointment list grid
+   - Appointment list grid 
    - Notification emails
 
 ## API Endpoints
