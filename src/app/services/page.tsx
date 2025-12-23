@@ -29,7 +29,7 @@ const services = [
     title: "Cosmetic Dentistry",
     image: "/Images/cosmetic-dentistry.webp",
     alt: "Cosmetic Dentistry at SmileKraft Dental Jersey City",
-    link: "/services/cosmetic-dentistry-maplewood-nj",
+    link: "/services/cosmetic-dentistry-jerseycity-nj",
   },
   {
     title: "Dental Fillings",

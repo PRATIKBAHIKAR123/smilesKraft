@@ -17,7 +17,7 @@ export const services = [
   {
     name: "Cosmetic Dentistry",
     icon: "/Images/icons/Cosmetic dentistry.png",
-    link: "/services/cosmetic-dentistry-maplewood-nj",
+    link: "/services/cosmetic-dentistry-jerseycity-nj",
   },
   {
     name: "Dental Fillings",

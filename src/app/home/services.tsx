@@ -27,7 +27,7 @@ export default function ServicesSection() {
       alt: "Cosmetic Dentistry at SmileKraft Dental Jersey City",
       icon: "/Images/icons/Cosmetic dentistry.png",
       iconAlt: "Cosmetic dentistry icon",
-      href: "/services/cosmetic-dentistry-maplewood-nj",
+      href: "/services/cosmetic-dentistry-jerseycity-nj",
     },
     {
       id: 1,

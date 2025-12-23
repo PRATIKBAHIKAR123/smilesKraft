@@ -37,7 +37,7 @@ All service pages have been updated with SEO-optimized routes:
 - **Emergency Dentistry:** `/services/emergency-dentistry-jerseycity-nj`
 - **Root Canal Treatment:** `/services/root-canal-treatment-jerseycity-nj`
 - **Oral Surgery:** `/services/oral-surgery-jerseycity-nj`
-- **Cosmetic Dentistry:** `/services/cosmetic-dentistry-maplewood-nj`
+- **Cosmetic Dentistry:** `/services/cosmetic-dentistry-jerseycity-nj`
 - **Dental Fillings:** `/services/dental-fillings-jerseycity-nj`
 - **Dental Implants:** `/services/dental-implants-jerseycity-nj`
 - **Orthodontics:** `/services/orthodontics-jerseycity-nj`

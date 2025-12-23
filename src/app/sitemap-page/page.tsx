@@ -20,7 +20,7 @@ export default function SiteMapPage() {
     "/services/emergency-dentistry-jerseycity-nj",
     "/services/root-canal-treatment-jerseycity-nj",
     "/services/oral-surgery-jerseycity-nj",
-    "/services/cosmetic-dentistry-maplewood-nj",
+    "/services/cosmetic-dentistry-jerseycity-nj",
     "/services/dental-fillings-jerseycity-nj",
     "/services/dental-implants-jerseycity-nj",
     "/services/orthodontics-jerseycity-nj",

@@ -91,7 +91,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
-      url: `${baseUrl}/services/cosmetic-dentistry-maplewood-nj`,
+      url: `${baseUrl}/services/cosmetic-dentistry-jerseycity-nj`,
       lastModified: currentDate,
       changeFrequency: "monthly",
       priority: 0.8,

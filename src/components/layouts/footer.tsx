@@ -98,7 +98,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  href="/services/cosmetic-dentistry-maplewood-nj"
+                  href="/services/cosmetic-dentistry-jerseycity-nj"
                   className="hover:underline"
                 >
                   Cosmetic Dentistry

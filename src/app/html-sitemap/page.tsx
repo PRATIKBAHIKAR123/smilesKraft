@@ -26,7 +26,7 @@ export default function SitemapPage() {
       { name: "Oral Surgery", link: "/services/oral-surgery-jerseycity-nj" },
       {
         name: "Cosmetic Dentistry",
-        link: "/services/cosmetic-dentistry-maplewood-nj",
+        link: "/services/cosmetic-dentistry-jerseycity-nj",
       },
       {
         name: "Dental Fillings",
