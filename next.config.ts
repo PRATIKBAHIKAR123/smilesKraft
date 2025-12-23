@@ -1,11 +1,6 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  // Enable experimental features for better performance
-  experimental: {
-    optimizePackageImports: ["lucide-react", "react-awesome-reveal"],
-  },
-
   // Image optimization
   images: {
     formats: ["image/webp", "image/avif"],
