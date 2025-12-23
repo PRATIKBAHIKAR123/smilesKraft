@@ -14,6 +14,9 @@ const nextConfig: NextConfig = {
   // Compression
   compress: true,
 
+  // Remove trailing slashes for consistency
+  trailingSlash: false,
+
   // Headers for better SEO and crawling
   async headers() {
     return [
